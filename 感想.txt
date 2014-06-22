@@ -1,0 +1,68 @@
+チーム名: オブジェクト指向
+感想：
+
+
+1.
+コードへのリンク：
+
+
+理由：
+READMEに仕様ごとの詳細な呼び出し方を書いている。
+クラスによって変数を管理している
+
+見つけたきっかけ：
+引継ぎ時にぱっとコードを見た時の第一印象
+
+
+2.
+コードへのリンク：
+https://github.com/ShunNomura/ShunNomura-sezemi-2014-readable-code-1/blob/master/Code1/test1.java
+
+
+理由：
+
+try によって動く部分が他の機能と分離しているため、仕様変更に強い。
+「読まなくてもいい」　リーダブル」
+
+マジックナンバーを使わなければよりベター
+
+3.
+URL：
+https://github.com/ishikawakenji/ishikawakenji-sezemi-2014-readable-code-1/blob/master/Project/src/Main.java
+
+理由：
+変数名に型が付いている。
+
+発見した理由：
+第一印象：
+
+
+4.
+URL:https://github.com/AAkira/AAkira-sezemi-2014-readable-code-1/tree/master/ReadableCode/src/jp/java/poro/readablecode
+
+理由：
+ENUMを使用した。処理ごとに分けたパッケージによってパッケージをそのまま流用できる。汎用性が高い。
+プロジェクトの規模が大きくなればなるほど後追いのコストが減り、有効
+必要な処理だけ読めばいい
+パッケージとクラス名で機能がわかるようにするのが重要。
+拡張構文を使っているが、使用しない方がリーダブル。
+
+
+具体例：
+// print recipe
+for(Recipe recipe : recipeList) {
+	System.out.println(recipe.getId() + " : " + recipe.getRecipeName());
+}
+
+Listの要素を順番にとりだして表示している
+普通のｆｏｒ文だとｉｎｔ　ｉ等無駄な要素が増える
+ｒｅｃｉｐｅ．ｇｅｔ（ｉ）．ｇｅｔＩｄ（）とか
+ｒｅｃｉｐｅ．ｇｅｔ（ｉ）．ｇｅｔＲｅｃｉｐｅＮａｍｅ（）
+
+
+発見した理由：
+通常の構文よりすっきりしていたから。
+
+
+5.
+
