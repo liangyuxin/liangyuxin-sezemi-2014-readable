@@ -6,9 +6,12 @@ SEゼミ「リーダブルコード」用
 ======================================
 Current Input and Output
 
-Input: nothing
+Input: 
 
-Output: show "オムライス" on console
+File on directory named "recipe-data.txt" 
+
+Output: 
+Each word on the text file is read and shown on console
 
 README:
 
