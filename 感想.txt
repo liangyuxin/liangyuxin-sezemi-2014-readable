@@ -41,7 +41,8 @@ https://github.com/ishikawakenji/ishikawakenji-sezemi-2014-readable-code-1/blob/
 URL:https://github.com/AAkira/AAkira-sezemi-2014-readable-code-1/tree/master/ReadableCode/src/jp/java/poro/readablecode
 
 理由：
-ENUMを使用した。処理ごとに分けたパッケージによってパッケージをそのまま流用できる。汎用性が高い。
+ENUMを使用した。処理ごとに分けたパッケージによってパッケージをそのまま流用できる。
+汎用性が高い。
 プロジェクトの規模が大きくなればなるほど後追いのコストが減り、有効
 必要な処理だけ読めばいい
 パッケージとクラス名で機能がわかるようにするのが重要。
