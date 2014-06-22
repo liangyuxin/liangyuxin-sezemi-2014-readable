@@ -46,3 +46,10 @@ URL:http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads
 
 4. compile and run code
 
+
+
+Reference:
+
+1. 
+
+http://www.javadrive.jp/start/stream/index1.html
