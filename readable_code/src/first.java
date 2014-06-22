@@ -5,21 +5,22 @@ public class first {
 	public static void main(String args[]) {
 		//System.out.println("オムライス");
 
-		// read omu-rice from file
+		// レシピデータのファイルを読み込み、文字を1文字ずつintで読み込む
+		
 		try{
-		      File file = new File("recipe-data.txt");
-		      FileReader filereader = new FileReader(file);
+		      File recipeFile = new File("recipe-data.txt");
+		      FileReader recipeObject = new FileReader(recipeFile);
 
-		      int ch;
-		      while((ch = filereader.read()) != -1){
-		        System.out.print((char)ch);
+		      int character;
+		      while((character = recipeObject.read()) != -1){
+		        System.out.print((char)character);
 		      }
 
-		      filereader.close();
+		      recipeObject.close();
 		    }catch(FileNotFoundException e){
-		      System.out.println(e);
+		      System.out.println("FileNotFoundException");
 		    }catch(IOException e){
-		      System.out.println(e);
+		      System.out.println("IOException");
 		    }
 		  }
 }
